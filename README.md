@@ -62,7 +62,7 @@ To exit the Pong Game :
 
 ## To run the game
 
-<span style="background-color: #eeeeee">&nbsp;&nbsp;cmake .&nbsp;</span>does the compiler detection, evaluates the <span style="background-color: #eeeeee">&nbsp;CMakeLists.txt&nbsp;</span> in the given <span style="background-color: #eeeeee">&nbsp;.&nbsp;</span> director and generates the build environment in the current working directory.<br/>The <span style="background-color: #eeeeee">&nbsp;cmake --build .&nbsp;</span> command is an abstraction for the necessary build/make call.
+` cmake . `does the compiler detection, evaluates the ` CMakeLists.txt ` in the given ` . ` director and generates the build environment in the current working directory.<br/>The ` cmake --build . ` command is an abstraction for the necessary build/make call.
 
 
 
