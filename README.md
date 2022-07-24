@@ -6,9 +6,10 @@ This is a simple pong game built using C++. There will be two players in the gam
 <br/>
 
 ## Screenshots
-<div style="margin-left:50px">"
+<div align="center">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/Jordian0/Pong-Game/main/screenshots/Screenshot%20from%202022-07-24%2016-36-24.png)
+ 
 </div>
 
 
@@ -19,32 +20,29 @@ You can press these keys to change the direction of the paddle.
 
 \
 To move Player 1 paddle :
-<div style="margin-left: 50px">
 
 | Key   | Direction   |
 |:-----:|:-----------:|
 | w     | UP          |
 | s     | DOWN        |
-</div>
+
 <br/>
 
 To move Player 2 paddle :
-<div style="margin-left: 50px">
 
 | Key    | Direction    |
 |:------:|:------------:|
 | i      | UP           |
 | k      | DOWN         |
-</div>
+
 <br/>
 
 To exit the Pong Game :
-<div style="margin-left: 50px">
 
 | Key    | Direction    |
 |:------:|:------------:|
 | q      | QUIT         |
-</div>
+
 <br/>
 
 
@@ -61,6 +59,7 @@ To exit the Pong Game :
 **Other libraries are included in cpp files**
 
 <br/>
+
 ## To run the game
 
 <span style="background-color: #eeeeee">&nbsp;&nbsp;cmake .&nbsp;</span>does the compiler detection, evaluates the <span style="background-color: #eeeeee">&nbsp;CMakeLists.txt&nbsp;</span> in the given <span style="background-color: #eeeeee">&nbsp;.&nbsp;</span> director and generates the build environment in the current working directory.<br/>The <span style="background-color: #eeeeee">&nbsp;cmake --build .&nbsp;</span> command is an abstraction for the necessary build/make call.
@@ -94,7 +93,7 @@ To run the game :
 And this will produce a flow chart:
 
 
-<div style="margin-left:10%;">
+<div>
 
 ```mermaid
 classDiagram
